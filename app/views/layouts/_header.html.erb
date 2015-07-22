@@ -1,0 +1,20 @@
+<% if @homeHeader %>
+	<header class="navbar" id="homeHeader">
+<% else %>
+	<header class="navbar">
+<% end %>
+	<div class="container-fluid">
+		<div class="navbar-brand">
+			<%= link_to image_tag('Logo.png', alt: "CelebChat Logo"), root_path %>
+		</div>
+		<nav>
+			<ul class="nav navbar-nav navbar-right">
+				<li class="navbar-regular"><%= link_to "BROWSE", "#" %></li>
+				<li class="navbar-regular"><%= link_to "ABOUT", "#" %></li>
+				<li class="navbar-regular"><%= link_to "CONTACT", "#" %></li>
+				<li class="navbar-portal"><%= link_to "SIGN UP", "#" %></li>
+				<li class="navbar-portal"><%= link_to "SIGN IN", "#" %></li>
+		</nav>
+	</div>
+</header>
+		

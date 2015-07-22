@@ -1,0 +1,151 @@
+/* --------------Table of Contents------------- *\
+	# Fonts
+	# Colors
+	# Header
+\* -------------------------------------------- */
+
+
+// # Fonts Start
+@font-face {
+	font-family: 'brandon-regular';
+	src: url('Brandon_reg.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'brandon-regular-italic';
+	src: url('Brandon_reg_it.otf');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'brandon-black';
+	src: url('Brandon_blk.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'brandon-black-italic';
+	src: url('Brandon_blk_it.otf');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'brandon-bold';
+	src: url('Brandon_bld.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'brandon-bold-italic';
+	src: url('Brandon_bld_it.otf');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'brandon-light';
+	src: url('Brandon_light.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'brandon-light-italic';
+	src: url('Brandon_light_it.otf');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'brandon-medium';
+	src: url('Brandon_med.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'brandon-medium-italic';
+	src: url('Brandon_med_it.otf');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'brandon-thin';
+	src: url('Brandon_thin.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'brandon-thin-italic';
+	src: url('Brandon_thin_it.otf');
+	font-weight: normal;
+	font-style: italic;
+}
+
+// Fonts End
+
+// # Colors Start
+$celebRed: #fe0849;
+
+// Colors End
+
+// # Header Start
+
+header {
+	font-family: 'brandon-bold';
+	background-color: rgba(0,0,0,1);
+	font-size: 11px;
+	border-radius: 0px !important;
+	position: absolute !important;
+	width: 100%;
+	z-index: 9999;
+}
+
+.navbar-portal {
+	// padding-top: 12px;
+	// padding-bottom: 12px;
+	a {
+		color: $celebRed;
+		// border: 2px solid $celebRed;
+		// border-radius: 45%;
+		// padding-top: 2px !important;
+		// padding-bottom: 2px !important;
+	}
+}
+
+.navbar-regular {
+	a {
+		color: #fff
+	}
+}
+
+// Custom HomePage CSS
+#homeHeader {
+	background-color: rgba(0,0,0, .8);
+}
+.intro-header {
+	position: relative;
+	max-height: 750px;
+	width: 100%;
+}
+
+#homePageBackground {
+	max-width: 100%;
+}
+
+
+.intro-overlay {
+	max-height: 750px;
+	width: 100%;
+
+}
+
+// Header End
