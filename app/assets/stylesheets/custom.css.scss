@@ -1,7 +1,12 @@
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
 /* --------------Table of Contents------------- *\
 	# Fonts
 	# Colors
 	# Header
+	# Home Custom
+	# Buttons
 \* -------------------------------------------- */
 
 
@@ -94,6 +99,10 @@
 
 // # Colors Start
 $celebRed: #fe0849;
+$celebPink: #f2e4ea;
+$darkText: #4b383d;
+$lightText: #7b7476;
+$transparentBlack: rgba(0,0,0,.8);
 
 // Colors End
 
@@ -127,9 +136,12 @@ header {
 	}
 }
 
-// Custom HomePage CSS
+
+// Header End
+
+// # Home Custom
 #homeHeader {
-	background-color: rgba(0,0,0, .8);
+	background-color: transparent;
 }
 .intro-header {
 	position: relative;
@@ -145,7 +157,65 @@ header {
 .intro-overlay {
 	max-height: 750px;
 	width: 100%;
+	background-image: image-url('homebackground.png');
+	height: 700px
 
+}
+.intro-container {
+	height: 100%;
+	width: 100%;
+	background-color: $transparentBlack;
+	.intro-content {
+		padding-top: 200px;
+		.container-text {
+			padding-left: 60px;
+			padding-top: 20px;
+			h1 {
+				font-size: 30px;
+				color: #fff;
+				font-family: brandon-light;
+				line-height: 1.2;
+				margin-bottom: 30px;
+				.red {
+					color: $celebRed;
+				}
+			}
+		}
+		#intro-content-image {
+			width: 85%;
+		}
+	}
+
+}
+
+.main-content {
+	background-color: $celebPink;
+	text-align: center;
+	padding-top: 30px;
+	h2 {
+		color: $darkText;
+		font-family: brandon-regular;
+	}
+	p {
+		color: $lightText;
+		font-family: brandon-regular;
+		margin-bottom: 25px;
+	}
+}
+
+// Home End
+
+// # Buttons Start
+.red-button {
+	background-color: $celebRed;
+	color: #fff;
+	font-family: brandon-light;
+	font-size: 20px;
+	paddding: 20px;
+	padding: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border-radius: 20px;
 }
 
 // Header End

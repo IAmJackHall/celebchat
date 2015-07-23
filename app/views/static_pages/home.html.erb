@@ -1,5 +1,35 @@
 <div class="intro-header" id="home">
-	<%= image_tag('homebackground.png', alt: 'CelebChat Background', id: 'homePageBackground') %>
 	<div class="intro-overlay">
+		<div class="intro-container">
+			<div class="container-fluid intro-content">
+				<div class="row">
+					<div class="col-xs-5 col-xs-offset-1 container-text">
+						<h1><span class="red">VIDEO CHAT LIVE</span> WITH YOUR FAVORITE CELEBRITIES, ENTERTAINMENT PERSONALITIES AND ONLINE STARS.</h1>
+						<%= link_to 'LEARN MORE', '#', class: 'red-button' %>
+					</div>
+					<div class="col-xs-6">
+						<%= image_tag('homeComp.png', alt: 'Home Computer Image', id: 'intro-content-image') %>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="main-content">
+		<div class="row">
+			<h2>START CHATTING WITH CELEBRITIES NOW</h2>
+			<p>Ask questions you've always dreamed about. Be inspired. Have a converesation that changes your life.</p>
+			<a class="red-button" href="#">CHAT NOW</a>
+		</div>
+		<div class="social-row row">
+			<div class="col-xs-2 col-xs-offset-2">
+				<%= fa_stacked_icon "facebook", base: "circle-thin", class:"fa-3x social-icon" %>
+			</div>
+			<div class="col-xs-2">
+
+			</div>
+			<div class="col-xs-2 col-xs-offset-right-2">
+			</div>
+		</div>
+
 	</div>
 </div>
